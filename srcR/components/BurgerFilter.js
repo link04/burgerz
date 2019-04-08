@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 const BurgerFilter = (props) => {
   return (
     <div className="BurgerFilter">
-      <select onChange={props.handleBurgerFilterchange}>
+      <select onChange={console.log}>
         <option value="All">All</option>
         <option value="Relatable">Relatable</option>
         <option value="Bougie">Bougie</option>
